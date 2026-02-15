@@ -1,0 +1,154 @@
+Menu,Raw Value,Name,Translated Value,Default,Description
+001,0300,AGC FAST DELAY,0300 msec,300,AGC-FAST decay time
+002,0700,AGC MID DELAY,0700 msec,700,AGC-MID decay time
+003,3000,AGC SLOW DELAY,3000 msec,3000,AGC-SLOW decay time
+004,0,HOME FUNCTION,SCOPE,0,HOME screen display
+005,1,MY CALL INDICATION,1 sec,1,MY CALL display duration
+006,2,DISPLAY COLOR,GREEN,0,VFO-A frequency field color
+007,1,DIMMER LED,1,2,Key LED brightness
+008,10,DIMMER TFT,10,8,TFT display brightness
+009,3,BAR MTR PEAK HOLD,2,0,Bar meter peak hold time
+010,050,DVS RX OUT LEVEL,050,050,Voice memory monitoring level
+011,050,DVS TX OUT LEVEL,050,050,Mic output level for voice memory
+012,3,KEYER TYPE,ELEKEY-B,3,Keyer mode
+013,0,KEYER DOT/DASH,NOR,0,Reverse CW paddle connections
+014,32,CW WEIGHT,32,32,CW keying weight
+015,000,BEACON INTERVAL,OFF sec,000,Beacon repeat interval
+016,0,NUMBER STYLE,1290,0,Contest number format
+017,0001,CONTEST NUMBER,0001,0001,Contest number (Morse)
+018,1,CW MEMORY 1,MESSAGE,1,Memory entry method
+019,1,CW MEMORY 2,MESSAGE,1,Memory entry method
+020,1,CW MEMORY 3,MESSAGE,1,Memory entry method
+021,1,CW MEMORY 4,MESSAGE,1,Memory entry method
+022,1,CW MEMORY 5,MESSAGE,1,Memory entry method
+023,2,NB WIDTH,10 msec,2,NB pulse duration
+024,1,NB REJECTION,30 dB,1,Noise attenuation level
+025,02,NB LEVEL,02,02,NB strength
+026,050,BEEP LEVEL,050,050,Beep volume
+027,-700,TIME ZONE,-700,000,UTC offset
+028,2,GPS/232C SELECT,RS232C,3,GPS/CAT jack function
+029,3,232C RATE,38400,0,RS-232C baud rate
+030,0,232C TOT,10 msec,0,RS-232C timeout
+031,3,CAT RATE,38400,3,CAT baud rate
+032,2,CAT TOT,1000 msec,2,CAT timeout
+033,1,CAT RTS,ENABLE,1,CAT RTS flow control
+034,0,MEM GROUP,DISABLE,0,Memory group function
+035,5,QUICK SPLIT FREQ,+05 kHz,5,Offset for Quick Split
+036,00,TX TOT,OFF min,00,Transmit timeout
+037,1,MIC SCAN,ENABLE,1,Mic auto-scan
+038,1,MIC SCAN RESUME,TIME,1,Scan resume mode
+039,0,REF FREQ ADJ,0,0,Reference oscillator adjustment
+040,0,CLAR MODE SELECT,RX,0,Clarifier mode
+041,00,AM LCUT FREQ,OFF,00,AM low-cut filter frequency
+042,0,AM LCUT SLOPE,6 dB/oct,0,AM low-cut slope
+043,00,AM HCUT FREQ,OFF,00,AM high-cut filter frequency
+044,0,AM HCUT SLOPE,6 dB/oct,0,AM high-cut slope
+045,0,AM MIC SELECT,MIC,0,AM mic input
+046,050,AM OUT LEVEL,050,050,AM audio output level
+047,2,AM PTT SELECT,DTR,2,AM PTT control
+048,1,AM PORT SELECT,USB,1,AM input port
+049,050,AM DATA GAIN,050,050,AM input gain (REAR)
+050,04,CW LCUT FREQ,04,04,CW low-cut filter frequency
+051,1,CW LCUT SLOPE,18 dB/oct,1,CW low-cut slope
+052,11,CW HCUT FREQ,11,11,CW high-cut filter frequency
+053,1,CW HCUT SLOPE,18 dB/oct,1,CW high-cut slope
+054,050,CW OUT LEVEL,050,050,CW output level
+055,0,CW AUTO MODE,OFF,0,CW keying on SSB
+056,1,CW BK-IN TYPE,FULL,1,CW break-in mode
+057,0140,CW BK-IN DELAY,0140 msec,0140,CW delay time
+058,2,CW WAVE SHAPE,2,2,CW rise/fall time
+059,0,CW FREQ DISPLAY,DIRECT FREQ,0,Pitch display mode
+060,0,PC KEYING,OFF,0,Keying method for RTTY/DATA
+061,0,QSK DELAY TIME,15 msec,0,Key-up delay for QSK
+062,1,DATA MODE,OTHERS,1,Data scheme
+063,1,PSK TONE,1500 Hz,1,PSK tone frequency
+064,1500,OTHER DISP (SSB),+1500 Hz,1500,Displayed offset in DATA mode
+065,1500,OTHER SHIFT (SSB),+1500 Hz,1500,Carrier point in DATA mode
+066,00,DATA LCUT FREQ,OFF,00,DATA low-cut filter frequency
+067,0,DATA LCUT SLOPE,6 dB/oct,0,DATA low-cut slope
+068,00,DATA HCUT FREQ,OFF,00,DATA high-cut filter frequency
+069,0,DATA HCUT SLOPE,6 dB/oct,0,DATA high-cut slope
+070,1,DATA IN SELECT,MIC,1,DATA input jack
+071,2,DATA PTT SELECT,DTR,2,PTT control for data
+072,1,DATA PORT SELECT,USB,1,Data input port
+073,050,DATA OUT LEVEL,050,050,Data I/O level
+074,0,FM MIC SELECT,MIC,0,FM mic input
+075,050,FM OUT LEVEL,050,050,FM audio output level
+076,1,FM PKT PTT SELECT,RTS,1,PTT for FM packet
+077,1,FM PKT PORT SELECT,USB,1,FM packet input port
+078,050,FM PKT TX GAIN,050,050,FM packet TX gain
+079,0,FM PKT MODE,1200,0,FM packet baud rate
+080,0100,RPT SHIFT 28MHz,0100 kHz,0100,Repeater offset for 28 MHz
+081,0500,RPT SHIFT 50MHz,0500 kHz,0500,Repeater offset for 50 MHz
+082,4000,RPT SHIFT 144MHz,4000 kHz,4000,Repeater offset for 144 MHz
+083,05000,RPT SHIFT 430MHz,05000 kHz,05000,Repeater offset for 430 MHz
+084,0,ARS 144MHz,OFF,0,Automatic Repeater Shift on 144 MHz
+085,1,ARS 430MHz,ON,1,Automatic Repeater Shift on 430 MHz
+086,0,DCS POLARITY,Tn-Rn,0,DCS code polarity
+087,G0lYb,RADIO ID,G0lYb,G0lYb,Unique transceiver ID (read-only)
+088,0,GM DISPLAY,DISTANCE,0,Group members sort mode
+089,1,DISTANCE,mile,1,Distance unit for GM
+090,0,AMS TX MODE,AUTO,0,AMS transmission behavior
+091,1,STANDBY BEEP,ON,1,Beep when digital contact ends
+092,05,RTTY LCUT FREQ,05,05,RTTY low-cut filter frequency
+093,1,RTTY LCUT SLOPE,18 dB/oct,1,RTTY low-cut slope
+094,47,RTTY HCUT FREQ,47,47,RTTY high-cut filter frequency
+095,1,RTTY HCUT SLOPE,18 dB/oct,1,RTTY high-cut slope
+096,1,RTTY SHIFT PORT,DTR,1,Input jack for RTTY shift
+097,0,RTTY POLARITY-RX,NOR,0,RTTY receive shift direction
+098,0,RTTY POLARITY-TX,NOR,0,RTTY transmit shift direction
+099,050,RTTY OUT LEVEL,050,050,Data output level in RTTY
+100,0,RTTY SHIFT FREQ,170 Hz,0,RTTY frequency shift width
+101,1,RTTY MARK FREQ,2125 Hz,1,RTTY mark frequency
+102,01,SSB LCUT FREQ,01,01,SSB low-cut filter frequency
+103,0,SSB LCUT SLOPE,6 dB/oct,0,SSB low-cut slope
+104,67,SSB HCUT FREQ,OFF,67,SSB high-cut filter frequency
+105,0,SSB HCUT SLOPE,6 dB/oct,0,SSB high-cut slope
+106,0,SSB MIC SELECT,MIC,0,SSB mic input
+107,050,SSB OUT LEVEL,050,050,SSB audio output level
+108,2,SSB PTT SELECT,DTR,2,SSB PTT control
+109,1,SSB PORT SELECT,USB,1,SSB input port
+110,3,SSB TX BPF,300-2700 Hz,3,DSP bandpass filter for SSB TX
+111,1,APF WIDTH,MEDIUM,1,Audio peak filter bandwidth in CW
+112,-15,CONTOUR LEVEL,-15,-15,Gain of audio contour circuit
+113,10,CONTOUR WIDTH,10,10,Bandwidth (Q) of contour circuit
+114,1,IF NOTCH WIDTH,WIDE,1,Bandwidth of DSP IF notch filter
+115,1,SCP DISPLAY MODE,WATER FALL,1,Scope display type
+116,03,SCP SPAN FREQ,03,03,Frequency span of spectrum scope
+117,2,SPECTRUM COLOR,GREEN,2,Color for spectrum scope
+118,7,WATER FALL COLOR,MULTI,7,Color for waterfall display
+119,05,PRMTRC EQ1 FREQ,05,05,Center frequency for low band parametric mic EQ
+120,9,PRMTRC EQ1 LEVEL,+09 dB,9,Gain for low band parametric mic EQ
+121,08,PRMTRC EQ1 BWTH,08,08,Bandwidth for low band parametric mic EQ
+122,04,PRMTRC EQ2 FREQ,04,04,Center frequency for mid band parametric mic EQ
+123,7,PRMTRC EQ2 LEVEL,+07 dB,7,Gain for mid band parametric mic EQ
+124,08,PRMTRC EQ2 BWTH,08,08,Bandwidth for mid band parametric mic EQ
+125,08,PRMTRC EQ3 FREQ,08,08,Center frequency for high band parametric mic EQ
+126,5,PRMTRC EQ3 LEVEL,+05 dB,5,Gain for high band parametric mic EQ
+127,04,PRMTRC EQ3 BWTH,04,04,Bandwidth for high band parametric mic EQ
+128,01,P PRMTRC EQ1 FREQ,01,01,Center frequency for low band parametric EQ (processor)
+129,10,P PRMTRC EQ1 LEVEL,+10 dB,10,Gain for low band parametric EQ (processor)
+130,03,P PRMTRC EQ1 BWTH,03,03,Bandwidth for low band parametric EQ (processor)
+131,01,P PRMTRC EQ2 FREQ,01,01,Center frequency for mid band parametric EQ (processor)
+132,-3,P PRMTRC EQ2 LEVEL,-03 dB,-3,Gain for mid band parametric EQ (processor)
+133,07,P PRMTRC EQ2 BWTH,07,07,Bandwidth for mid band parametric EQ (processor)
+134,18,P PRMTRC EQ3 FREQ,18,18,Center frequency for high band parametric EQ (processor)
+135,10,P PRMTRC EQ3 LEVEL,+10 dB,10,Gain for high band parametric EQ (processor)
+136,02,P PRMTRC EQ3 BWTH,02,02,Bandwidth for high band parametric EQ (processor)
+137,100,SPEECH PROC LEVEL,100,100,Speech processor level
+138,100,RF POWER SETTING,100 W,100,RF power output
+139,050,MIC GAIN,050,050,Microphone gain
+140,050,PROC LEVEL,050,050,Processor level
+141,2,MONITOR SELECT,2,2,Monitor select
+142,1,MONITOR LEVEL,1,1,Monitor level
+143,010,VOX SELECT,010,010,VOX input select
+144,0500,VOX GAIN,0500,0500,VOX gain
+145,050,VOX DELAY,050 msec,050,VOX delay time
+146,050,ANTI VOX GAIN,050,050,Anti-VOX gain
+147,0100,DATA VOX GAIN,0100,0100,Data VOX gain
+148,000,DATA VOX DELAY,000 msec,000,Data VOX delay
+149,0,ANTI DVOX GAIN,0,0,Anti-Data VOX gain
+150,0,PRT/WIRES FREQ,MANUAL,0,WIRES-X frequency setting method
+151,14655000,PRESET FREQUENCY,14655000 Hz,14655000,Preset WIRES-X frequency
+152,0,SEARCH SETUP,HISTORY,0,WIRES-X search mode
+153,000,WIRES DG-ID,AUTO,000,WIRES-X Digital Group ID
